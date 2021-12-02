@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Formulario</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../css/estilo.css">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap" rel="stylesheet">
+</head>	
+<body>
+	<div class="header">
+	
+		
+		<h1 class="header__logo logo">YERBA MATE</h1>
+		
+
+
+		 <ul class="header__nav nav">
+			<li><a href="../index.html">Home</a></li>
+			<!-- UNA VENTANA  QUE CUANDO SE PRESIONA "YERBA MATE" APAREZCA  "QUE ES EL MATE" Y "COMO SE PREPARA"-->
+			
+			<li class="dropdown">
+			 <button class="dropbtn">Yerba Mate</button>
+			 	 <div class="dropdown-content">
+			    <a href="../Yerba Mate/quees.html">¿Que es el mate?</a><!-- Yerba Mate-->
+				<a href="../Yerba Mate/preparacion.html">¿Como se prepara?</a><!-- Yerba Mate-->
+				</div>
+			</li>
+		
+
+			<li><a href="../galeria.html">Galeria</a></li>
+			<li><a href="formulario.html">Inscribirse</a></li><!--formulario-->
+			<li><a href="../contacto.html">Contacto</a></li>
+	 	</ul>
+		</div>
+		
+
+	<div class="imgFullScreen">
+		<div class="conteinerFormulario">
+		
+			<h2>Formulario</h2>
+			<form action="" method="POST" enctype="multipart/for-data">
+		 		
+
+		 		 <div class="conteinerFormulario__primeraFila">
+		 		    <p>Nombre</p>
+		 		 	<input type="text" name="nombre">
+		 		</div>
+		 		<div class="conteinerFormulario__primeraFila">
+		 		   	<p>Apellido</p>
+		 		 	<input type="text" name="nombre">
+		 		 </div>
+		 		 <div class="conteinerFormulario__primeraFila">
+		 		 	<p>fecha de nacimiento</p>
+		 		 	<input type="date" name="nacimiento">
+		 		 </div>
+		 		 <div class=".conteinerFormulario__segundaFila ">
+		 		 	<label>Femenino</label>
+						<input type="radio" name="opciones">
+					<label>Masculino</label>
+						<input type="radio" name="opciones">
+		 		 </div>
+		 		 <div class="borde"></div>
+		 		 <div class="conteinerFormulario__terceraFila">
+		 		    <p>Mail</p>
+		 		 	<input type="email" name="email">
+		 		 </div>
+
+		 		 <div class="conteinerFormulario__terceraFila">
+		 		 	<p>Contraseña</p>
+		 		 	<input type="password" name="pass">
+		 		 </div>
+		 		 <div class="borde"></div>
+		 		
+		 		 <div class="conteinerFormulario__cuartaFila">
+		 		 	<label>Preferencia</label>
+					<select name="opciones">
+						<option value="mateT">Mate tradicional</option>
+						<option value="segunda">Tereré</option>
+					</select>
+				</div>
+				<div class="conteinerFormulario__cuartaFila">	
+					<p>¿Porque?</p>
+					<textarea name="mensaje"></textarea>
+				</div>
+				 <div class="borde"></div>
+				<div class="conteinerFormulario__ultimaFila">
+					<input type="button" name="boton" value="ENVIAR">
+				</div>
+				<div class="conteinerFormulario__ultimaFila">
+					<input type="checkbox" name="terminos">
+					<label>Acepto terminos y condiciones</label>
+				</div>
+				
+		</div>	
+
+	</form>
+
+	<footer class="pie">
+				<h4>Copyright - Todos los derechos reservados</h4>
+				<p>Seguinos en nuestras redes</p>
+				<a href="https://www.instagram.com/z.catriel/">Instagram</a>
+				<a href="https://www.instagram.com/z.catriel/">Facebook</a>
+				<a href="https://www.linkedin.com/in/zeeb-catriel-labat-46a80b188/">Linkedin</a>
+			</footer>
+    </div>	
+
+</body>
+</html>
